@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "cls & nodemon index.js"
+    "dev": "cls && nodemon index.js"
   },
   "author": "",
   "license": "ISC",
