@@ -1,3 +1,5 @@
-import "dotenv/config";
+import dotenv from "dotenv";
 
-export const DATABSE_CONNECTION = process.env.MONGODB_CONNECTION;
+dotenv.config();
+
+export const DATABSE_CONNECTION = process.env.MONGODB_CONNECTION | null;
