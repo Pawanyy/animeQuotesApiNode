@@ -8,6 +8,10 @@ const PORT = process.env.PORT | 3000;
 
 app.use(express.json());
 
+app.get("/", async (req, res) => {
+  res.send({ message: "Welcome to Anime Quotes API!" });
+});
+
 app.get("/api", async (req, res) => {
   res.send({ message: "Welcome to Anime Quotes API!" });
 });
